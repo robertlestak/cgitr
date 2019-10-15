@@ -13,6 +13,3 @@ function gitr () {
 function cgitr () {
 	gitr | tr -d '\n' | $copyfx
 }
-if [[ "$0" != "$_" ]]; then
-	`cgitr`
-fi
